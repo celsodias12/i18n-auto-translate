@@ -1,20 +1,30 @@
 {
   "name": "i18n-auto-translate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automatically translate a json to any languages",
   "bin": "src/cli/index.mjs",
   "main": "src/cli/index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celsodias12/i18n-auto-translate"
+  },
   "scripts": {
     "start": "node src/index.mjs",
-    "ts": "echo Checking typescript errors... && npx tsc && echo Typescript errors checked.",
-    "lint": "npm run eslint && npm run ts",
+    "lint": "npm run eslint",
     "eslint": "eslint src/** --ext .js,.jsx,.ts,.tsx --fix",
     "prepare": "husky install"
   },
   "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "i18n",
+    "auto translate",
+    "translate",
+    "translation",
+    "internationalization",
+    "i18n auto translate cli"
+  ],
+  "author": "Celso Dias",
+  "license": "MIT",
   "engines": {
     "yarn": "IN THIS PROJECT ONLY THE USE OF NPM IS ALLOWED"
   },
