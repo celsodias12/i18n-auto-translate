@@ -1,0 +1,9 @@
+**/*.js
+src/assets
+src/bin
+node_modules
+./build
+yarn.lock
+package-lock.json
+./public
+./dist

@@ -1,0 +1,50 @@
+{
+  "name": "i18n-auto-translate",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "src/cli/index.mjs",
+  "main": "src/cli/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "ts": "echo Checking typescript errors... && npx tsc && echo Typescript errors checked.",
+    "lint": "npm run eslint && npm run ts",
+    "eslint": "eslint src/** --ext .js,.jsx,.ts,.tsx --fix",
+    "prepare": "husky install"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "yarn": "IN THIS PROJECT ONLY THE USE OF NPM IS ALLOWED"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^6.3.1",
+    "dotenv": "^16.0.0",
+    "inquirer": "^8.2.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "babel-plugin-root-import": "^6.6.0",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import-helpers": "^1.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-unused-imports": "1.1.5",
+    "husky": "^7.0.0",
+    "prettier": "^2.6.1",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.14.1",
+    "tslib": "^2.3.1"
+  }
+}
