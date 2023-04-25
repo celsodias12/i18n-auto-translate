@@ -34,7 +34,7 @@
     "inquirer": "^8.2.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.3",
+    "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^16.2.1",
     "babel-plugin-root-import": "^6.6.0",
     "eslint": "^7.21.0",
