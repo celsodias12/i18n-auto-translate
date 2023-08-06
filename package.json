@@ -10,8 +10,7 @@
   },
   "scripts": {
     "start": "node src/index.mjs",
-    "lint": "npm run eslint",
-    "eslint": "eslint src/** --ext .js,.jsx,.ts,.tsx --fix",
+    "lint": "eslint src/** --ext .js,.jsx,.ts,.tsx --fix",
     "prepare": "husky install"
   },
   "type": "module",
@@ -26,7 +25,7 @@
   "author": "Celso Dias",
   "license": "MIT",
   "engines": {
-    "yarn": "IN THIS PROJECT ONLY THE USE OF NPM IS ALLOWED"
+    "yarn": "ONLY THE USE OF NPM IS ALLOWED"
   },
   "dependencies": {
     "@google-cloud/translate": "^6.3.1",
@@ -40,15 +39,11 @@
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-import-resolver-typescript": "^2.4.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-import-helpers": "^1.1.0",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-unused-imports": "1.1.5",
     "husky": "^7.0.0",
     "prettier": "^2.6.1",
