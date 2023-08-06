@@ -1,5 +1,4 @@
 import { v2 } from '@google-cloud/translate'
-
 import fs from 'fs'
 import path from 'path'
 
